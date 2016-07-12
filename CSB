@@ -1,0 +1,69 @@
+#include <stdio.h>
+int main ()
+
+{
+	printf ("SOMATORIO DAS MEDIAS\n\n");
+	
+	printf ("As notas devem ser preenchidas com numeros de 1 a 10.\n");
+	
+	
+	
+	
+	int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o;
+	
+	printf ("Insira a sua nota de Portugues\n");
+	scanf ("%d",&a);
+	printf("nota:%d\n",a);
+		printf ("Insira a sua nota de Frances\n");
+	scanf ("%d",&b);
+	printf("nota:%d\n",b);
+	printf ("Insira a sua nota de Ingles\n");
+	scanf ("%d",&c);
+	printf("nota:%d\n",c);
+	printf ("Insira a sua nota de Espanhol\n");
+	scanf ("%d", &d);
+	printf("nota:%d\n",d);
+	printf ("Insira a sua nota de Historia\n");
+	scanf ("%d", &e);
+	printf("nota:%d\n",e);
+	printf ("Insira a sua nota de Geografia\n");
+	scanf ("%d",&f);
+	printf("nota:%d\n",f);
+	printf ("Insira a sua nota de Fisica\n");
+	scanf ("%d", &g);
+	printf("nota:%d\n",g);
+	printf ("Insira a sua nota de Quimica\n");
+	scanf ("%d", &h);
+	printf("nota:%d\n",h);
+	printf ("Insira a sua nota de Biologia\n");
+	scanf ("%d", &i);
+	printf("nota:%d\n",i);
+	printf ("Insira a sua nota de Matematica\n");
+	scanf ("%d", &j);
+	printf("nota:%d\n",j);
+	printf ("Insira a sua nota de Historia da Arte\n");
+	scanf ("%d", &k);
+	printf("nota:%d\n",k);
+	printf ("Insira a sua nota de Sociologia\n");
+	scanf ("%d", &l);
+	printf("nota:%d\n",l);
+	printf ("Insira a sua nota de Filosofia\n");
+	scanf ("%d",&m);
+	printf("nota:%d\n",m);
+	printf ("Insira a sua nota de Teologia\n");
+	scanf ("%d", &n);
+	printf("nota:%d\n",n);
+	printf ("Insira a sua nota de Educacao Fisica\n");
+	scanf ("%d", &o);
+	printf("nota:%d\n",o);
+	printf ("A sua media final e: %d\n", (a+b+c+d+e+f+g+h+i+o+j+k+l+m+n+o)/15);
+	
+	if ((a+b+c+d+e+f+g+h+i+j+k+l+m+n+o)/15 >=7)
+	
+	{printf ("Parabens,voce passou.\n");}
+	else
+	{printf ("Voce esta de recuperacao.\n");}
+	
+	return 0;
+	
+	}
